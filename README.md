@@ -24,14 +24,14 @@ git clone https://github.com/teamhanko/passkeys-nextjs.git
 
 2. Set up environment variables
 
-Create a `.env` file in the root directory and add the following environment variables:
+    Create a `.env` file in the root directory and add the following environment variables:
 
 ```sh
 PASSKEYS_API_KEY=your-hanko-passkey-api-key
 PASSKEYS_TENANT_ID=your-hanko-passkey-tenant-id
 ```
 
-    Replace `your-hanko-passkey-api-key` and `your-hanko-passkey-tenant-id` with your actual Hanko Passkey API key and tenant ID.
+   Replace `your-hanko-passkey-api-key` and `your-hanko-passkey-tenant-id` with your actual Hanko Passkey API key and tenant ID.
 
 3. Install the dependencies using your preferred package manager (e.g., `npm`, `pnpm`, `yarn`, or `bun`). For this project, we've used `pnpm`:
 
